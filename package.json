@@ -9,7 +9,8 @@
     "start": "react-native start",
     "start:production": "APP_ENV=production react-native start",
     "test": "jest",
-    "android-release": "cd android && APP_ENV=production ./gradlew assembleRelease"
+    "android-release": "cd android && APP_ENV=production ./gradlew assembleRelease",
+    "postinstall": "cd ./ios && pod cache clean --all && pod install && cd ../"
   },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^6.5.18",
