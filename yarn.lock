@@ -6401,11 +6401,6 @@ react-native-dotenv@^3.4.11:
   dependencies:
     dotenv "^16.4.5"
 
-react-native-flexible-grid@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/react-native-flexible-grid/-/react-native-flexible-grid-0.1.5.tgz#b8ff77e0fdc2b08086a5bc1f2a12210554d9b5a9"
-  integrity sha512-GIhnLoLoEOVpgXssktCvfZfv+CK1gxO/oFQ2WcIJmXbi/VkgVbiSWDru8gA770L8UqlD/mvnag9/XbZ5vSoKXg==
-
 react-native-gesture-handler@^2.15.0:
   version "2.15.0"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-2.15.0.tgz#f8e6c0451a7bdf065edb7b9be605480db402baa0"

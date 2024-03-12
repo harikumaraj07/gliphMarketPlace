@@ -1,8 +1,51 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+# Project Setup
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+This project utilizes well-established libraries to provide a robust and user-friendly experience:
+
+### React Navigation:
+
+Chosen for its active development, comprehensive features, and large community support, ensuring a smooth navigation experience.
+
+### React Native Elements:
+
+Selected to streamline development by providing essential UI components (icons, theming, reusables) with minimal setup overhead.
+
+### State Management
+
+**Simplified Approach**: Given the application's scope, a solution like Context API or useState might be sufficient for state management. Redux, while powerful, is often unnecessary for smaller apps.
+
+### Project Structure
+
+Clean Organization: All application code resides within the src folder, promoting project maintainability and clarity.
+**MVC Pattern**: The project adopts the MVC pattern for organization:
+
+**Models**: Represent data fetched from APIs.
+**Views**: Handle UI rendering based on model data.
+**Controllers**: Facilitate user interactions and data manipulation.
+
+### View Models for Enhanced Data Handling
+
+**Improved Readability**: View Models are simple, well-defined types that process data from APIs.
+**Data Transformation**: Raw API data is transformed into a more user-friendly format with clear property names ("formatters").
+**Structured Data**: Transformed data is passed to views for rendering, improving maintainability and understanding.
+
+### Custom Splash Screen Behavior
+
+**Enhanced User Experience**: The default splash screen behavior is overridden to display a loading state while essential app assets are loaded, minimizing user wait time.
+
+### Component Design Approach
+
+**Custom Components**: Commonly used components are defined individually within the src folder, ensuring efficiency and avoiding unnecessary setup overhead.
+
+### Interactive Video Glyphs
+
+**Engaging Presentation**: Glyphs are represented by videos with play/pause functionality, providing a richer user experience for visual assets.
+
+# Environment setup and running react-native application
+
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
