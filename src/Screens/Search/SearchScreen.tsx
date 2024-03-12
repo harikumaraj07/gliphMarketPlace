@@ -13,7 +13,7 @@ export const SearchScreen = () => {
 
   const [q, setQ] = useState('');
 
-  const {page, nextPage, resetPage} = usePagination(1);
+  const {page, nextPage, resetPage} = usePagination(0);
 
   const [gliphs, setGliphs] = useState<GliphyItem[]>([]);
 
