@@ -33,7 +33,7 @@ Clean Organization: All application code resides within the src folder, promotin
 
 ### Custom Splash Screen Behavior
 
-**Enhanced User Experience**: The default splash screen behavior is overridden to display a loading state while essential app assets are loaded, minimizing user wait time.
+**Enhanced User Experience**: The default splash screen behaviour is overridden to display a loading state while essential app assets are loaded, minimizing user wait time.
 
 ### Component Design Approach
 
@@ -42,6 +42,14 @@ Clean Organization: All application code resides within the src folder, promotin
 ### Interactive Video Glyphs
 
 **Engaging Presentation**: Glyphs are represented by videos with play/pause functionality, providing a richer user experience for visual assets.
+
+## Images from app
+<img width="333" alt="ss1" src="https://github.com/harikumaraj07/gliphMarketPlace/assets/86013495/7f679e48-1f5b-418b-b240-3bdec6e562be">
+<img width="330" alt="ss2" src="https://github.com/harikumaraj07/gliphMarketPlace/assets/86013495/3e8831a2-e949-455d-80f3-2f177e410a8b">
+<img width="336" alt="ss3" src="https://github.com/harikumaraj07/gliphMarketPlace/assets/86013495/84a9fde0-7ef5-4bc5-a052-867ccea65f34">
+<img width="344" alt="ss4" src="https://github.com/harikumaraj07/gliphMarketPlace/assets/86013495/fa68c10c-d525-4f42-a2c9-aacf511f39d3">
+
+
 
 # Environment setup and running react-native application
 
