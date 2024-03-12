@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
 
-import {SearchBar} from 'src/Components';
+import {SearchBar, View} from 'src/Components';
 import {GliphyItem} from 'src/Models';
 import {useDebounce, useGetSearchGifs, usePagination} from 'src/Hooks';
-import {View} from 'react-native';
 import {useSearchScreenStyles} from './SearchScreenStyles';
 import {SearchLayout} from './SearchLayout';
 

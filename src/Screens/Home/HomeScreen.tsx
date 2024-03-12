@@ -1,10 +1,9 @@
 import React from 'react';
 
-import {View} from 'react-native';
-
 import {useHomeScreenStyles} from './HomeScreenStyles';
 import {HomeSearchBar} from './HomeSearchBar';
 import {TredingGliphsList} from './TredingGliphsList';
+import {View} from 'src/Components';
 
 export const HomeScreen = () => {
   const styles = useHomeScreenStyles();

@@ -3,9 +3,12 @@ import {makeStyles} from '@rneui/themed';
 export const useSettingScreenStyles = makeStyles(() => ({
   container: {
     flex: 1,
+    paddingTop: 10,
+    paddingHorizontal: 10,
   },
   content: {
-    paddingVertical: 10,
+    padding: 10,
+    borderRadius: 5,
   },
   subTitle: {
     fontSize: 16,

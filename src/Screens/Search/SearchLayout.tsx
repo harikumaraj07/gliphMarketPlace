@@ -1,8 +1,7 @@
 import React from 'react';
-import {Text} from '@rneui/base';
 import {View} from 'react-native';
 import {useSearchScreenStyles} from './SearchScreenStyles';
-import {GliphyCard, ResponsiveGrid} from 'src/Components';
+import {GliphyCard, ResponsiveGrid, Text} from 'src/Components';
 import {useCallback} from 'react';
 import {GliphyItem} from 'src/Models';
 

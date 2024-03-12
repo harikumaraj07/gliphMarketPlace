@@ -1,9 +1,10 @@
 import {useThemeMode} from '@rneui/themed';
 import React from 'react';
 
-import {Appearance, Text, View} from 'react-native';
+import {Appearance} from 'react-native';
 import {useSettingScreenStyles} from './SettingScreenStyles';
 import {Button, Card, Switch} from '@rneui/base';
+import {View, Text, Border} from 'src/Components';
 
 export const SettingScreen = () => {
   const styles = useSettingScreenStyles();
@@ -21,7 +22,7 @@ export const SettingScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Card>
+      <Border style={styles.content}>
         <View style={[styles.row, styles.spaceBetween]}>
           <Text style={styles.subTitle}>System theme:</Text>
           <Text style={styles.body}>{colorScheme}</Text>
@@ -41,7 +42,7 @@ export const SettingScreen = () => {
           <Text>Toggle to {mode === 'dark' ? 'Light' : 'Dark'}</Text>
           <Switch value={mode === 'dark'} onValueChange={handleToggle} />
         </View>
-      </Card>
+      </Border>
     </View>
   );
 };
